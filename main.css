@@ -1,0 +1,17 @@
+@charset "UTF 8";
+
+/*
+#6393A6 (azul)
+#BF785E (vermelho claro)
+#F2CBBD (branco)
+#A65B4B (vermelho menos escuro)
+#733B36 (vermelho escuro)
+*/
+
+:root {
+    --azul: #6393A6;
+    --verm1: #BF785E;
+    --branco: #F2CBBD;
+    --verm2: #A65B4B; 
+    --verm3: #733B36;
+}
