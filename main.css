@@ -1,5 +1,7 @@
 @charset "UTF 8";
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
 /*
 #6393A6 (azul)
 #BF785E (vermelho claro)
@@ -14,4 +16,42 @@
     --branco: #F2CBBD;
     --verm2: #A65B4B; 
     --verm3: #733B36;
+
+    --fonte: 'Roboto';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 1000px;
+    background-color: var(--verm1);
+    font-family: var(--fonte);
+}
+
+h1 {
+    padding: 300px 0 0 150px;
+    height: 10px;
+    font-size: 80px;
+}
+
+h2 {
+    margin-top: 90px;
+    padding-left: 160px;
+    height: 10px;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+main {
+    height: 1080px;
+    background-color: var(--branco);
+}
+
+footer {
+    height: 100px;
+    background-color: var(--verm3);
 }
