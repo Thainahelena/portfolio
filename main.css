@@ -66,27 +66,68 @@ h2 {
 }
 
 h3 {
-    text-justify: newspaper;
-    padding-left: 41rem;
-    padding-top: 5rem;
     font-weight: 200;
     color: black;
     font-size: 3rem;    
 }
 
 main {
-    height: 200vh;
+    height: 300vh;
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .Portfolio {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.PortfolioTitle {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.PortfolioContainer {
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 5rem;
+    align-items: center;
+    height: 150vh;
     gap: 3rem;
 }
 
+.Contact {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.ContactTitle {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.ContactContainer {
+    background-color: var(--branco);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    gap: 3rem;
+}
+
+/*
 .Portfoliolink {
     width: 30%;
     font-size: 2rem;
@@ -104,13 +145,13 @@ main {
     align-items: center;
 }
 
-.Contact{
+.Contactlink{
     padding: 4rem;
 }
 
 .ContactTitle {
     background-color: var(--branco);
-}
+}*/
 
 footer {
     font-weight: 100;
